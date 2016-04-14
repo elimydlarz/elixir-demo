@@ -10,6 +10,11 @@ defmodule DemoTest do
   end
 
   @tag :pending
+  test "word counting" do
+    assert Demo.word_count("   tuna banana sombrero ") == 3
+  end
+
+  @tag :pending
   test "run length encoding a string" do
     assert Demo.run_length_encode("BEEHIVE") == "1B2E1H1I1V1E"
   end
