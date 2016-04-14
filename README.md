@@ -30,8 +30,7 @@ to avoid state changes and mutable data.
 
 # Reading / Experimenting
 
-Read [Getting Started with Elixir](http://elixir-lang.org/getting-started/introduction.html):
-
+Read [Getting Started with Elixir](http://elixir-lang.org/getting-started/introduction.html). 
 Using IEX, try out:
 
 - IEX
