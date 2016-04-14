@@ -26,6 +26,6 @@ defmodule DemoTest do
 
   @tag :pending
   test "mapping a list" do
-    assert Demo.map([1,3,5,7], &(&1+1)) == [2,4,6,8]
+    assert Demo.map([1,3,5,7], fn e -> e + 1 end) == [2,4,6,8]
   end
 end
