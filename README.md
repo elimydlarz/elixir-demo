@@ -8,32 +8,31 @@ code if we want to.
 
 ## Object Oriented Programming
 
-This paradigm models the real world as objects that know 
+This paradigm models the world as objects that know 
 things and do things. In the world, the interactions of 
-these objects causes them to change their state, create 
-other objects, destroy other objects and so on. An object 
-oriented program generally solves problems using these same
-mechanisms. This is intuitive because it is similar to our
-mental model of the world.
+these objects causes them to change state, create other 
+objects, destroy other objects and so on. In our code, we
+solve problems using these same mechanisms. This is 
+intuitive because it is similar to the western reductionist
+mental model of the world which most of us grew up with.
 
 ## Functional Programming
 
 But is the world really about objects and things? Alan Watts 
-says *"the universe doesn't come __thinged__"*, rather - we
-thing the universe. Objects only really exist in our mental
-model and not only is that not an accurate representation of
-the world, it is not always the best way to model it. 
-Functional programming models the real world as a process -
-a continuous stream of changes and transformations. We try
+liked to say: *"the universe doesn't come __thinged__"*, 
+rather - we thing the universe. Objects only really exist 
+in our mental model and not only is that not an accurate 
+representation of the world, it is not always the best way 
+to model it. Instead of focusing on things, Functional 
+programming models the world as a process - a continuous 
+stream of transformation. In our code, we try 
 to avoid state changes and mutable data.
-
 
 # Reading / Experimenting
 
 Read [Getting Started with Elixir](http://elixir-lang.org/getting-started/introduction.html). 
 Using IEX, try out:
 
-- IEX
 - Atoms
 - Modules and functions
 - Anonymous functions

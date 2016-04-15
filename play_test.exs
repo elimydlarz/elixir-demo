@@ -19,16 +19,19 @@ defmodule DemoTest do
     assert Demo.run_length_encode("BEEHIVE") == "1B2E1H1I1V1E"
   end
 
+  # Rule: No libraries!
   @tag :pending
   test "counting a list" do
     assert Demo.count([1,3,5,7]) == 4
   end
 
+  # Rule: No libraries!
   @tag :pending
   test "reversing a list" do
     assert Demo.reverse([1,3,5,7]) == [7,5,3,1]
   end
 
+  # Rule: No libraries!
   @tag :pending
   test "mapping a list" do
     assert Demo.map([1,3,5,7], fn e -> e + 1 end) == [2,4,6,8]
