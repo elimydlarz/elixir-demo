@@ -7,7 +7,6 @@ Using [IEX](http://elixir-lang.org/getting-started/introduction.html#interactive
 - [Anonymous functions](http://elixir-lang.org/getting-started/modules.html#function-capturing)
 - [Lists and tuples](http://elixir-lang.org/getting-started/basic-types.html#linked-lists)
 - [Pattern matching](http://elixir-lang.org/getting-started/pattern-matching.html#pattern-matching)
-  - [Pin operator](http://elixir-lang.org/getting-started/pattern-matching.html#the-pin-operator)
 - [Branching](http://elixir-lang.org/getting-started/case-cond-and-if.html)
   - [Case with assignment](http://elixir-lang.org/getting-started/case-cond-and-if.html#case)
 
